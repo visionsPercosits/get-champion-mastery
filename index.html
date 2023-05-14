@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>real.dev</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <form id="summoner-form">
+      <label for="summoner-name">Coloque o nome do invocador aqui:</label>
+      <input type="text" id="summoner-name" />
+      <select id="region-select">
+        <option value="br1">Brazil</option>
+        <option value="eun1">EU Nordic and East</option>
+        <option value="euw1">EU West</option>
+        <option value="jp1">Japan</option>
+        <option value="kr">Korea</option>
+        <option value="la1">Latin America North</option>
+        <option value="la2">Latin America South</option>
+        <option value="na1">North America</option>
+        <option value="oc1">Oceania</option>
+        <option value="tr1">Turkey</option>
+        <option value="ru">Russia</option>
+      </select>
+      <button type="submit">Buscar</button>
+    </form>
+    <div id="mastery-results"></div>
+    <script src="index.js"></script>
+  </body>
+</html>
